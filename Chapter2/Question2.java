@@ -14,7 +14,7 @@ public class Question2 {
         System.out.print("Enter length of cylinder: ");
         double length = input.nextDouble();
 
-        final double pi = 3.14;
+        final double pi = 3.141;
         double area = radius * radius * pi;
         double volume = area * length;
 
