@@ -2,24 +2,26 @@
 
 Welcome to the repository for **"Introduction to Java Programming by Y. Daniel Liang"** practice solutions! This project aims to systematically solve and share detailed answers to all the practice questions from each chapter of this highly acclaimed textbook.
 
-## About This Repository
+## 📚About This Repository
 
 This repository contains:
 - Solutions to all chapter-end practice questions from the book.
 - Well-organized, commented Java code for each exercise.
 - Code arranged chapter-wise for easy reference and learning.
 
-**Repository Structure:**
+**📁Repository Structure:**
 ```
 Introduction-to-Java-Programming-By-Y.-Danial-Liang/
 │
 ├── Chapter1/
 │   └── Practice Question Solutions
+├── Chapter2/
+│   └── Practice Question Solutions
 ├── ...
 └── .gitignore
 ```
 
-## How to Use
+## 📝How to Use
 
 - Browse by chapter: Each folder corresponds to a chapter and contains Java source files for the practice problems of that chapter.
 - Reference code: Use the solutions as references for your own learning or coursework.
@@ -50,7 +52,7 @@ Introduction-to-Java-Programming-By-Y.-Danial-Liang/
 
 > Each solution is written with clarity and includes essential comments for easy understanding.
 
-## Contribution
+## 🤝Contribution
 
 - **Pull Requests** are welcome!
 - Please ensure your code is clean, well-commented, and correctly solves the given exercise.
