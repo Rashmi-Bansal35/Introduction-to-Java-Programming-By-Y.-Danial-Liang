@@ -1,4 +1,3 @@
-package Chapter1;
 /*
  Write a program that displays the following table:
 a   a^2  a^3
@@ -7,6 +6,9 @@ a   a^2  a^3
 3   9    27
 4   16   64
 */
+
+package Chapter1;
+
 public class Question4 {
     public static void main(String[] args){
         System.out.println("a   a^2  a^3");

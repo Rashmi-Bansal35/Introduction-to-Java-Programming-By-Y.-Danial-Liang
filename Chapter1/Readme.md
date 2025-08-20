@@ -1,4 +1,4 @@
-# 🌟 Chapter 1: Introduction to Java Programming
+# 🌟 Chapter 1: Introduction to Computers, Programs and Java
 
 Welcome to **Chapter 1** of the _Introduction to Java Programming_ by **Y. Daniel Liang**!  
 This chapter is your launchpad into the world of Java—one of the most popular and versatile programming languages.
@@ -32,7 +32,7 @@ chapter1/
 │── Question3.java
 │── Question4.java
 │── ...
-
+│── Question13.java
 ```
 
 ---
@@ -61,7 +61,22 @@ chapter1/
 
 ---
 
-## 🏆 Exercises
+## 📝 Questions List
+
+
+| #  | Short Description                                                                        | Status   |
+|----|------------------------------------------------------------------------------------------|----------|
+| 1  | Program to display three welcome messages.                                               | ✅      |
+| 2  | Program that displays Welcome to Java five times.                                        | ✅      |
+| 3  | Program that displays the pattern java.                                                  | ✅      |
+| 4  | Print a table that display square and cube of a number.                                  | ✅      |
+| 5  | Program to display the result of an arithmetic expression.                               | ✅      |
+| 6  | Program to display the sum of 1 to 9.                                                    | ✅      |
+| 7  | Program to approximate π using the series formula (up to 1/11 and 1/13 terms).           | ✅      |
+| 8  | Program that display perimeter and area of circle of given radius.                       | ✅      |
+| 9  | Program that display area and perimeter of rectangle of given height and width.          | ✅      |
+| 10 | Program that display average speed in miles per hour.                                    | ✅      |
+
 
 
 
