@@ -76,8 +76,9 @@ chapter1/
 | 8  | Program that display perimeter and area of circle of given radius.                       | ✅      |
 | 9  | Program that display area and perimeter of rectangle of given height and width.          | ✅      |
 | 10 | Program that display average speed in miles per hour.                                    | ✅      |
-
-
+| 11 | Program that population of next five years.                                              | ✅      |
+| 12 | Program that display average speed in kilometer per hour.                                | ✅      |
+| 13 | Program using Cramer’s rule to solve 3.4x + 50.2y = 44.5 and 2.1x + 0.55y = 5.9.         | ✅      |
 
 
 ---
