@@ -1,4 +1,3 @@
-package Chapter1;
 /*
 The U.S. Census Bureau projects population based on the following assumptions:
 ■ One birth every 7 seconds
@@ -9,6 +8,8 @@ one year has 365 days. Hint: In Java, if two integers perform division, the resu
 For example, 5 / 4 is 1 (not 1.25) and 10 / 4 is 2 (not 2.5). To get an accurate result with the fractional part, one of the values 
 involved in the division must be a number with a decimal point. For example, 5.0 / 4 is 1.25 and 10 / 4.0 is 2.5.
  */
+
+package Chapter1;
 
 public class Question11 {
     public static void main(String[] args){

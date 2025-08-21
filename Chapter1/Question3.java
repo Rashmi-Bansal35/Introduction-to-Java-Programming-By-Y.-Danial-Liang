@@ -1,4 +1,3 @@
-package Chapter1;
 /*
 Write a program that displays the following pattern:
     J    A  V     V  A
@@ -6,6 +5,9 @@ Write a program that displays the following pattern:
 J   J  AAAAA  V V  AAAAA
  J J  A     A  V  A     A
  */
+
+package Chapter1;
+
 public class Question3 {
     public static void main(String[] args){
         System.out.println("    J    A  V       V  A");

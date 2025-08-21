@@ -1,9 +1,11 @@
-package Chapter1;
 /*
 Write a program that displays the area and perimeter of a rectangle with the width of 4.5 and height of 7.9 using the following
 formula:
 area = width * height
  */
+
+package Chapter1;
+
 public class Question9 {
     public static void main(String[] args){
         double width = 4.5;
