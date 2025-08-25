@@ -67,7 +67,7 @@ Chapter2/
 | #  | Short Description                                                                                       | Status   |
 |----|---------------------------------------------------------------------------------------------------------|----------|
 | 1  | Program that reads a temperature in Celsius from the user, converts it to Fahrenheit .                  | ✅      |
-| 2  | Program that reads the radius and length of a cylinder, then computes and displays the area and volume  | ✅      |
+| 2  | Program that reads the radius and length of a cylinder, then computes and displays the area and volume. | ✅      |
 | 3  | Program that reads a number in feet, converts it to meters, and displays the result.                    | ✅      |
 | 4  | Program that reads a value in pounds, converts it to kilograms and displays the result.                 | ✅      |
 | 5  | Program that reads the subtotal and gratuity rate, then computes and displays the gratuity and total.   | ✅      |
@@ -76,7 +76,19 @@ Chapter2/
 | 8  | Modify a program that shows current GMT time to prompt for a time zone offset and display the time in that time zone. | ✅      |
 | 9  | Program that reads starting velocity v0, ending velocity v1, and time t, then calculates and displays average acceleration.| ✅      |
 | 10 | Program that reads the amount of water (kg), initial temperature, and final temperature, then calculates the energy needed to heat the water. | ✅      |
-...
+| 11 | Program that prompts the user to enter a number of years and displays the population after those years, casting the population to an integer.  | ✅      |
+| 12 | Program that reads an airplane’s take-off speed v and acceleration a, then calculates and displays the minimum runway length.| ✅      |
+| 13 | Program that reads a monthly saving amount and calculates the account value after six months with a monthly interest rate of 0.00417. | ✅      |
+| 14 | Program that reads weight and height, converts them to kilograms and meters respectively, then calculates and displays BMI. | ✅      |
+| 15 | Program that reads two points (x1,y1) and (x2,y2), then calculates and displays the distance between them.   | ✅      |
+| 16 | Program that reads the side of a hexagon and displays its area.                    | ✅      |
+| 17 | Program that reads reads temperature (-58 to 41 °F) and wind speed (≥ 2 mph), then computes and displays wind-chill temperature using the NWS formula. | ✅      |
+| 18 | Program that displays a table of integers a, b and pow(a,b), casting the results to integers. | ✅      |
+| 19 | Program that reads three points of a triangle and calculates its area using Heron’s formula.| ✅      |
+| 20 | Program that reads the balance and the annual percentage interest rate and displays the interest for the next month.  | ✅      |
+| 21 | Program that reads investment amount, annual interest rate, and number of years, and displays the future investment value. | ✅      |
+| 22 | Program that reads an integer input where last two digits are cents (e.g., 1156 = $11.56) to avoid loss of accuracy converting from double to int.| ✅      |
+| 23 | Program that reads distance, fuel efficiency (mpg), and price per gallon, then calculates and displays the trip cost.  | ✅      |
 
 ---
 
@@ -89,7 +101,7 @@ Chapter2/
 
 ---
 
-> _"The journey of a thousand miles begins with a single step."_  
-> — Lao Tzu
+> _"Code is like humor. When you have to explain it, it’s bad."_  
+> — Cory House
 
 Happy Coding! 🎉
