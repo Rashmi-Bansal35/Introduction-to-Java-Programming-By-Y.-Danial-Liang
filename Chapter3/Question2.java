@@ -4,9 +4,12 @@ Revise the program to generate three single-digit integers and prompt the user t
 */
 
 package Chapter3;
+import java.util.Scanner;
 
 public class Question2 {
     public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
 
+        input.close();
     }
 }
