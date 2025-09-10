@@ -1,6 +1,5 @@
 /*
-Write a program that randomly generates an integer between 1 and 12 and displays the English month name January, February, …, 
-December for the number 1, 2, …, 12, accordingly.
+Write a program that randomly generates an integer between 1 and 12 and displays the English month name January, February, …, December for the number 1, 2, …, 12, accordingly.
 */
 
 package Chapter3;
