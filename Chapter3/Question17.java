@@ -36,5 +36,6 @@ public class Question17 {
                 System.out.println("Invalid Input!!");
                 break;
         }
+        input.close();
     }
 }
