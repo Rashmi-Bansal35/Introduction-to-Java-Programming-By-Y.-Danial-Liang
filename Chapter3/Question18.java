@@ -38,6 +38,7 @@ public class Question18 {
                 System.out.println("The shipping cost is: " +10.5);
             }
         }
+        // Close the Scanner
         input.close();
     }
 }
