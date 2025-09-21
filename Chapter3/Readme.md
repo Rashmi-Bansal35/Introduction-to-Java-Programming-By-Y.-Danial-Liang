@@ -80,7 +80,11 @@ Chapter3/
 | 13 | Complete ComputeTax.java to calculate taxes for all filing statuses, not just single filers. | ✅      |
 | 14 | Program to let the user guess a coin flip (0 or 1) and report if the guess is correct. | ✅      |
 | 15 | Revise Lottery.java to generate a 3-digit lottery number, prompt user input, and award $10,000 for exact match, $3,000 for all digits match, or $1,000 for one digit match.   | ✅      |
-|... | ...                                                             | ✅      |
+| 16 | Generate a random coordinate within a rectangle centered at (0,0) with width 100 and height 200.| ✅     |
+| 17 | Program for the scissor-rock-paper game where the computer randomly picks 0 (scissor), 1 (rock), or 2 (paper), the user inputs their choice, and the program shows who wins, loses, or draws. | ✅      |
+| 18 | Program that calculates shipping cost based on package weight using a given rate table, and shows an error if weight exceeds 20 pounds.   | ✅      |
+| 19 | Program that reads three triangle edges, checks validity by the triangle inequality, and computes the perimeter or shows invalid input.| ✅     |
+|... | ...                                                         | ...   |
 
 ---
 
