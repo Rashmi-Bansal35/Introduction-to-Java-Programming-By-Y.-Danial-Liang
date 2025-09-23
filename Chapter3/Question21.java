@@ -1,6 +1,6 @@
 /*
 Zeller’s congruence is an algorithm developed by Christian Zeller to calculate the day of the week. The formula is
-    h = ( q + (26(m + 1) / 10) + k + (k / 4) + (j / 4) + (5 * j) ) % 7
+    h = ( q + (26 * (m + 1) / 10) + k + (k / 4) + (j / 4) + (5 * j) ) % 7
 where
 ■ h is the day of the week (0: Saturday, 1: Sunday, 2: Monday, 3: Tuesday, 4: Wednesday, 5: Thursday, 6: Friday).
 ■ q is the day of the month.
@@ -17,6 +17,61 @@ public class Question21 {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 
+        // Prompt the user to enter the input
+        System.out.print("Enter year (e.g., 2012): ");
+        int year = input.nextInt();
+        System.out.print("Enter month 1-12: ");
+        int m = input.nextInt();
+        System.out.print("Enter day of the month 1-31: ");
+        int q = input.nextInt();
 
+        // Adjust month and year for January and February
+        if (m == 1 || m == 2){
+            m += 12;
+            year--;
+        }
+
+        // Find the century
+        int j = year / 100;
+
+        // Find year of century
+        int k = year % 100;
+
+        // Calculate day of week
+        int h = (q + (26 *(m + 1) / 10) + k + (k/4) + (j / 4) + (5 * j)) % 7;
+
+        // Declare a variable for day of week to avoid repeatition
+        String day = " ";
+
+        // Assign day of week 
+        switch (h) {
+            case 0:
+                day = "Saturday";
+                break;
+            case 1:
+                day = "Sunday";
+                break;
+            case 2:
+                day = "Monday";
+                break;
+            case 3:
+                day = "Tuesday";
+                break;
+            case 4:
+                day = "Wednesday";
+                break;
+            case 5:
+                day = "Thursday";
+                break;
+            case 6:
+                day = "Friday";
+                break;
+        }
+
+        // Display the day of week
+        System.out.println("Day of the week is " +day);
+
+        // Close the Scanner
+        input.close();
     }
 }
