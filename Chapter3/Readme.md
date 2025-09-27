@@ -65,26 +65,40 @@ Chapter3/
 
 | #  | Short Description                                                                                       | Status   |
 |----|---------------------------------------------------------------------------------------------------------|----------|
-| 1  | Program to input a, b, c, compute the discriminant, and display the real roots or a message if they do not exist, based on its value.                  | ✅      |
-| 2  | Revise AdditionQuiz.java so that it generates three random single-digit numbers, asks the user to enter their sum, and then checks the answer. | ✅      |
-| 3  | Program that inputs a, b, c, d, e, f; checks if ad - bc is zero (no solution), otherwise uses Cramer's rule to display x and y values for the linear system.              | ✅      |
-| 4  | Program that randomly generates an integer between 1 and 12 and displays the English month name January, February, …, December for the number 1, 2, …, 12, accordingly.             | ✅      |
-| 5  | Program that asks for today’s day (0-6) and for days elapsed, then displays the weekday for today and the weekday after the given number of days.  | ✅      |
-| 6  | Revise ComputeAndInterpretBMI.java to prompt user for weight, feet, and inches, then compute and display BMI.      | ✅      |
-| 7  | Modify ComputeChange.java to display only nonzero denominations with correct singular/plural words (e.g., 1 dollar, 2 dollars, 1 penny, 3 pennies).      | ✅      |
-| 8  | Program to input three integers and display them in non-decreasing order. | ✅      |
-| 9  | Program to input the first 9 digits of an ISBN-10 as an integer, compute the checksum digit, and display the complete 10-digit ISBN with checksum (use 'X' for checksum 10).| ✅      |
-| 10 | Revise SubtractionQuiz.java to generate an addition question with two random integers less than 100. | ✅      |
-| 11 | Program to input month and year, then display the number of days in that month accounting for leap years.  | ✅      |
-| 12 | Program to input a three-digit integer and check if it is a palindrome. | ✅      |
-| 13 | Complete ComputeTax.java to calculate taxes for all filing statuses, not just single filers. | ✅      |
-| 14 | Program to let the user guess a coin flip (0 or 1) and report if the guess is correct. | ✅      |
-| 15 | Revise Lottery.java to generate a 3-digit lottery number, prompt user input, and award $10,000 for exact match, $3,000 for all digits match, or $1,000 for one digit match.   | ✅      |
-| 16 | Generate a random coordinate within a rectangle centered at (0,0) with width 100 and height 200.| ✅     |
-| 17 | Program for the scissor-rock-paper game where the computer randomly picks 0 (scissor), 1 (rock), or 2 (paper), the user inputs their choice, and the program shows who wins, loses, or draws. | ✅      |
-| 18 | Program that calculates shipping cost based on package weight using a given rate table, and shows an error if weight exceeds 20 pounds.   | ✅      |
-| 19 | Program that reads three triangle edges, checks validity by the triangle inequality, and computes the perimeter or shows invalid input.| ✅     |
-|... | ...                                                         | ...   |
+| 1  | Input a, b, c; compute discriminant; display real roots or no real roots. | ✅      |
+| 2  | Generate 3 random digits; ask user for sum; check answer. | ✅      |
+| 3  | Input a, b, c, d, e, f; solve linear system using Cramer’s rule; display x, y or no solution. | ✅      |
+| 4  | Generate random int 1-12; display corresponding month name. | ✅      |
+| 5  | Input current day (0-6) and days elapsed; display current and future weekdays. | ✅      |
+| 6  | Input weight, feet, inches; compute and display BMI. | ✅      |
+| 7  | Display change denominations; show only nonzero with correct singular/plural. | ✅      |
+| 8  | Input 3 integers; display them in sorted (non-decreasing) order. | ✅      |
+| 9  | Input first 9 digits of ISBN-10; compute checksum; display full ISBN. | ✅      |
+| 10 | Generate subtraction quiz with two random ints < 100. | ✅      |
+| 11 | Input month and year; display days in month accounting for leap year. | ✅      |
+| 12 | Input 3-digit integer; check if palindrome. | ✅      |
+| 13 | Compute taxes for all filing statuses. | ✅      |
+| 14 | Guess coin flip (0 or 1); report correctness. | ✅      |
+| 15 | Lottery game: Generate 3-digit lottery number; award prizes based on matches. | ✅      |
+| 16 | Generate random coordinate inside rectangle centered at (0,0) (width 100, height 200). | ✅     |
+| 17 | Scissor-rock-paper game: computer pick vs user input; show result. | ✅      |
+| 18 | Calculate shipping cost based on weight; error if > 20 pounds. | ✅      |
+| 19 | Input three triangle edges; check validity; compute perimeter or error. | ✅     |
+| 20 | Input temperature and wind speed; display wind-chill if valid or error. | ✅    |
+| 21 | Use Zeller’s congruence: input year, month, day; display day of week. | ✅      |
+| 22 | Check if point is inside circle centered at (0,0) radius 10. | ✅      |
+| 23 | Check if point is inside rectangle centered at (0,0) width 10 height 5. | ✅      |
+| 24 | Simulate picking a card; display rank and suit. | ✅      |
+| 25 | Input four points for two lines; display intersection or parallel. | ✅      |
+| 26 | Check if integer divisible by 5 and 6, by 5 or 6, or by one but not both. | ✅     |
+| 27 | Check if point is inside right triangle with vertices (0,0), (200,0), (0,100). | ✅      |
+| 28 | Input centers, width, height of two rectangles; check if second inside or overlaps first. | ✅      |
+| 29 | Input centers and radii of two circles; check if second inside or overlaps first. | ✅     |
+| 30 | Display hour in 12-hour clock format (revise Exercise 2.8). | ✅    |
+| 31 | Input USD to RMB exchange rate, conversion direction (0 or 1), amount; convert and display. | ✅      |
+| 32 | Input three points p0, p1, p2; check if p2 is left, right, or on line from p0 to p1. | ✅     |
+| 33 | Compare cost of two rice packages; input weight and price; display cheaper. | ✅      |
+| 34 | Check if p2 lies on line segment from p0 to p1; input three points; display result. | ✅      |
 
 ---
 
