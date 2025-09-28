@@ -23,7 +23,9 @@ public class Question8 {
 
         // Convert total minutes to total hours (GMT)
         long totalHours = totalMinutes / 60;
-        long currentHour = totalHours % 24;
+        long currentHour = totalHours % 24 + (long)offset;
+        if (currentHour >= 24) currentHour -= 24;
+        if (currentHour < 0) currentHour += 24;
 
         System.out.println("The current time is " + currentHour + ":" + currentMinute + ":" + currentSecond);
         input.close();
