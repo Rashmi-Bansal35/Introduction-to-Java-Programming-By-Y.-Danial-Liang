@@ -7,17 +7,22 @@ public class Question13 {
 
         // Prompt the user to enter input
         System.out.print("Enter a letter: ");
-        String str = input.next().toLowerCase();
-        char value = str.charAt(0);
+        char ch = input.next().charAt(0);
+        char value = Character.toLowerCase(ch);
 
         // Check if input is consonant or vowel
-        if(value == 'a'|| value == 'e'|| value == 'i'||  value == 'o'|| value == 'u'){
-            System.out.println("Input value is vowel");
+        if (value >= 'a' && value <= 'z'){
+            if(value == 'a'|| value == 'e'|| value == 'i'||  value == 'o'|| value == 'u'){
+                System.out.println(ch + " is a vowel");
+            }
+            else{
+                System.out.println(ch + " is a consonent");
+            }
         }
         else{
-            System.out.println("Input value is consonent");
+            System.out.println(ch + " is an invalid input");
         }
-
+        
         // Close the Scanner
         input.close();
     }
