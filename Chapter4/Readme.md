@@ -64,6 +64,32 @@ Chapter4/
 
 | #  | Short Description                                                                                       | Status   |
 |----|---------------------------------------------------------------------------------------------------------|----------|
+|  1.| Enter the radius, then compute area and round to two decimal places.                                    |   ✅     |
+|  2.| Computes the shortest distance between two points on a sphere using latitude and longitude.             |   ✅       |
+|  3.| Computes the area enclosed by four cities using the Great Circle formula and Heron’s formula.           |    ✅      |
+|  4.| Calculates the area of a regular hexagon based on the user-provided side length.                        |   ✅       |
+|  5.| Calculates the area of a regular polygon using number of sides and side length.                         |   ✅       |
+|  6.| Generates three random points on a circle and computes triangle angles.                                 |   ✅       |
+|  7.| Displays coordinates of a pentagon’s vertices given the bounding circle radius.                         |   ✅       |
+|  8.| Converts an ASCII code (0–127) to its corresponding character.                                          |    ✅      |
+|  9.| Displays the Unicode value of a given character.                                                        |    ✅      |
+| 10.| Modifies GuessBirthday to use Y/N input instead of 1/0.                                                 |    ✅      |
+| 11.| Converts an integer (0–15) to its hexadecimal value.                                                    |   ✅       |
+| 12.| Converts a hexadecimal digit to its binary representation.                                              |   ✅       |
+| 13.| Checks whether an entered letter is a vowel or a consonant.                                             |    ✅      |
+| 14.| Converts a letter grade to its numeric value.                                                           |   ✅       |
+| 15.| Maps a letter to its corresponding telephone keypad number.                                             |  ✅        |
+| 16.| Displays a random uppercase letter.                                                                     |  ✅        |
+| 17.| Displays the number of days in a given month and year (leap year aware).                                |  ✅        |
+| 18.| Displays student major and academic status based on two input characters.                               | ✅         |
+| 19.| Computes the ISBN-10 check digit using string input.                                                    |          |
+| 20.| Displays the length of a string and its first character.                                                |   ✅       |
+| 21.| Validates a Social Security number in DDD-DD-DDDD format.         |          |
+| 22.| Checks whether one string is a substring of another.      |    ✅      |
+| 23.| Generates a formatted payroll statement from employee input data.              |  ✅        |
+| 24.| Displays three city names in ascending alphabetical order.                   |   ✅       |
+| 25.| Generates a random vehicle plate number (AAA-1234 format).      |          |
+| 26.| Rewrites ComputeChange to use string processing for accurate currency handling.                      |    ✅      |
 
 
 ---
