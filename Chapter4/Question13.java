@@ -1,3 +1,4 @@
+/* Write a program that prompts the user to enter a letter and check whether the letter is a vowel or consonant. */
 package Chapter4;
 import java.util.Scanner;
 
