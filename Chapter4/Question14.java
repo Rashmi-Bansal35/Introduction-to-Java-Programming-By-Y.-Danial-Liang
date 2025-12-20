@@ -9,7 +9,7 @@ public class Question14 {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 
-        // Prompt the user to enter input from the user
+        // Prompt the user to enter input 
         System.out.print("Enter a letter grade: ");
         char value = input.next().charAt(0);
         char grade = Character.toUpperCase(value);
