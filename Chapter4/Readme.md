@@ -32,6 +32,9 @@ Chapter4/
 ├── Question3.java
 ├── Question4.java
 ├── ...
+├── ...
+|__ Question26.java
+
 ```
 
 ---
@@ -41,7 +44,7 @@ Chapter4/
 1. **Open Terminal or Command Prompt**
 2. **Navigate to the chapter folder:**
    ```bash
-   cd Chapter2
+   cd Chapter4
    ```
 3. **Compile a Java file:**
    ```bash
