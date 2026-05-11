@@ -32,6 +32,9 @@ Chapter4/
 ├── Question3.java
 ├── Question4.java
 ├── ...
+├── ...
+|__ Question26.java
+
 ```
 
 ---
@@ -41,7 +44,7 @@ Chapter4/
 1. **Open Terminal or Command Prompt**
 2. **Navigate to the chapter folder:**
    ```bash
-   cd Chapter2
+   cd Chapter4
    ```
 3. **Compile a Java file:**
    ```bash
@@ -64,7 +67,7 @@ Chapter4/
 
 | #  | Short Description                                                                                       | Status   |
 |----|---------------------------------------------------------------------------------------------------------|----------|
-|  1.| Enter the radius, then compute area and round to two decimal places.                                    |   ✅     |
+|  1.| Enter the radius, then compute area and round to two decimal places.                                    |   ✅      |
 |  2.| Computes the shortest distance between two points on a sphere using latitude and longitude.             |   ✅       |
 |  3.| Computes the area enclosed by four cities using the Great Circle formula and Heron’s formula.           |    ✅      |
 |  4.| Calculates the area of a regular hexagon based on the user-provided side length.                        |   ✅       |
@@ -82,14 +85,14 @@ Chapter4/
 | 16.| Displays a random uppercase letter.                                                                     |  ✅        |
 | 17.| Displays the number of days in a given month and year (leap year aware).                                |  ✅        |
 | 18.| Displays student major and academic status based on two input characters.                               | ✅         |
-| 19.| Computes the ISBN-10 check digit using string input.                                                    |          |
+| 19.| Computes the ISBN-10 check digit using string input.                                                    |  ✅        |
 | 20.| Displays the length of a string and its first character.                                                |   ✅       |
-| 21.| Validates a Social Security number in DDD-DD-DDDD format.         |          |
-| 22.| Checks whether one string is a substring of another.      |    ✅      |
-| 23.| Generates a formatted payroll statement from employee input data.              |  ✅        |
-| 24.| Displays three city names in ascending alphabetical order.                   |   ✅       |
-| 25.| Generates a random vehicle plate number (AAA-1234 format).      |          |
-| 26.| Rewrites ComputeChange to use string processing for accurate currency handling.                      |    ✅      |
+| 21.| Validates a Social Security number in DDD-DD-DDDD format.                                               |   ✅       |
+| 22.| Checks whether one string is a substring of another.                                                    |    ✅      |
+| 23.| Generates a formatted payroll statement from employee input data.                                       |  ✅        |
+| 24.| Displays three city names in ascending alphabetical order.                                              |   ✅       |
+| 25.| Generates a random vehicle plate number (AAA-1234 format).                                              |    ✅      |
+| 26.| Rewrites ComputeChange to use string processing for accurate currency handling.                         |    ✅      |
 
 
 ---
