@@ -16,7 +16,7 @@ public class Question9 {
         String highestName = "";
 
         double secondHighestScore = -1;
-        String secondString = "";
+        String secondName = "";
 
         for (int i = 0; i < no_of_students; i++){
             System.out.print("Enter the name of student: ");
@@ -24,6 +24,21 @@ public class Question9 {
 
             System.out.print("Enter the score of student: ");
             double score = input.nextDouble();
+            input.nextLine();
+            if (score > highestScore){
+                secondHighestScore = highestScore;
+                secondName = highestName;
+
+                highestName = name;
+                highestScore = score;
+            }
+            else if (score > secondHighestScore){
+                secondHighestScore = score;
+                secondName = name;
+            }
         }
+        System.out.println("The student with highest score is " +highestName+ " has score "+ highestScore);
+        System.out.println("The student with second highest score is " +secondName+ " has score "+ secondHighestScore);
+
     }
 }

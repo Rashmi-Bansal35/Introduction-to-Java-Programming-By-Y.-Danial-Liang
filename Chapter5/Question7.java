@@ -5,6 +5,18 @@ package Chapter5;
 
 public class Question7 {
     public static void main(String[] args){
+        double tuition = 10000;
+        double totalCost = 0;
 
+        for (int i = 1; i <= 10; i++){
+            tuition = tuition * 1.05;
+        }
+        System.out.println("Tuition after 10 years: " + String.format("%.3f",tuition));
+
+        for (int i = 1; i <= 4; i++) {
+            tuition = tuition * 1.05; 
+            totalCost += tuition;     
+        }
+        System.out.println("Total cost for 4 years after 10th year: " + String.format("%.3f", totalCost));    
     }
 }
