@@ -39,6 +39,6 @@ public class Question9 {
         }
         System.out.println("The student with highest score is " +highestName+ " has score "+ highestScore);
         System.out.println("The student with second highest score is " +secondName+ " has score "+ secondHighestScore);
-
+        input.close();
     }
 }
