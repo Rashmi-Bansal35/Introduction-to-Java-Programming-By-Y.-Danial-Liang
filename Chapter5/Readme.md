@@ -105,6 +105,6 @@ Chapter5/
 
 ---
 
-> _"A loop is a sequence of instructions that repeats until a condition is met. It helps your program work smarter, not harder."_
+> _"Life is an infinite loop of choices and challenges. If you don't like where you are spinning, change your input, optimize your logic, and write your own break statement."_
 
 Happy looping! 🎉
