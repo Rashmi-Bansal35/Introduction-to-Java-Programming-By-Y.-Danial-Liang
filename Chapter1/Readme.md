@@ -26,6 +26,9 @@ This chapter is your launchpad into the world of Java—one of the most popular 
 
 ```
 chapter1/
+├── Notes/
+       ├── Chapter1-notes.pdf
+       ├── Chapter1-notes.pdf  
 ├── README.md         # This file
 ├── Question1.java
 ├── Question2.java
