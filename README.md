@@ -15,6 +15,7 @@ Introduction-to-Java-Programming-By-Y.-Danial-Liang/
 │
 ├── Chapter1/
 │   └── Practice Question Solutions
+│   └── Notes
 ├── Chapter2/
 │   └── Practice Question Solutions
 ├── Chapter3/
