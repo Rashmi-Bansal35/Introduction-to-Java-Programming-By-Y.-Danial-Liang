@@ -20,7 +20,7 @@ This chapter serves as your fundamental launchpad into the world of Java—one o
 ## 🗂️ Directory Structure
 
 ```text
-chapter1/
+Chapter1/
 ├── Notes/
 │   ├── Chapter1-notes.pdf        # Detailed conceptual summaries
 │   └── Chapter1-mindmap.png      # Visual guide for quick revision
