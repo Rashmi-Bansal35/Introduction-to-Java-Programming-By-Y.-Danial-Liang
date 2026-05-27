@@ -153,50 +153,6 @@ java Question1
 
 ---
 
-# 🤝 Contribution Guidelines
-
-Contributions are highly appreciated and encouraged! 🚀
-
-### You Can Contribute By:
-
-- Adding missing exercise solutions
-- Improving code readability
-- Optimizing algorithms
-- Fixing bugs or formatting issues
-- Enhancing notes and explanations
-
----
-
-## 🔧 Contribution Workflow
-
-### 1️⃣ Fork the Repository
-
-Create your own copy of the repository.
-
-### 2️⃣ Create a Feature Branch
-
-```bash
-git checkout -b feature/ImprovedSolution
-```
-
-### 3️⃣ Commit Your Changes
-
-```bash
-git commit -m "Improved Chapter 3 exercise solutions"
-```
-
-### 4️⃣ Push to GitHub
-
-```bash
-git push origin feature/ImprovedSolution
-```
-
-### 5️⃣ Open a Pull Request
-
-Submit your improvements for review.
-
----
-
 # 🎓 Acknowledgements
 
 Special thanks to:
