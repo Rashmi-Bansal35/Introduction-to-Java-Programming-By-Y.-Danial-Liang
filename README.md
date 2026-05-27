@@ -197,17 +197,6 @@ Submit your improvements for review.
 
 ---
 
-# 📝 Community Guestbook
-
-Feel free to leave feedback, suggestions, or greetings through Pull Requests or Discussions.
-
-| Date | Contributor | Feedback |
-|---|---|---|
-| 27-05-2026 | @Rashmi-Bansal35 | Looking forward to learning and improving together! |
-| DD-MM-YYYY | @YourUsername | Your feedback or suggestion here |
-
----
-
 # 🎓 Acknowledgements
 
 Special thanks to:
