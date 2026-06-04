@@ -24,37 +24,40 @@ This chapter is your launchpad into the world of Java—one of the most popular 
 
 ## 🗂️ Directory Overview
 
-```
-Chapter4/
-├── Readme.md          # This file
-├── Question1.java
-├── Question2.java
-├── Question3.java
-├── Question4.java
+```text
+Chapter3/
+├── Question1.java                # Celsius to Fahrenheit converter
+├── Question2.java                # Cylinder area and volume calculator
 ├── ...
 ├── ...
-|__ Question26.java
-
+├── ...
+├── Question26.java               # Driving cost estimator
+├── GuessBirthday.java
+└── Readme.md                     # This documentation file
 ```
 
 ---
 
-## 🛠️ How to Run Java Code
+# 🛠️ How to Compile & Run Java Programs
+If you are using a terminal or command prompt, follow these simple steps to compile and run any Java program.
 
-1. **Open Terminal or Command Prompt**
-2. **Navigate to the chapter folder:**
-   ```bash
-   cd Chapter4
-   ```
-3. **Compile a Java file:**
-   ```bash
-   javac Question1.java
-   ```
-4. **Run the program:**
-   ```bash
-   java Question1
-   ```
+## 1️⃣ Navigate to the Chapter Folder
+```bash
+cd chapter2
+```
 
+## 2️⃣ Compile the Java File
+Before execution, Java source code (`.java`) must be compiled into bytecode (`.class`).
+```bash
+javac Question1.java
+```
+
+## 3️⃣ Run the Compiled Class
+
+While running the program, do not include the `.java` or `.class` extension.
+```bash
+java Question1
+```
 ---
 
 ## 📚 Recommended Reading
@@ -65,44 +68,95 @@ Chapter4/
 
 ## 📝 Questions List
 
-| #  | Short Description                                                                                       | Status   |
-|----|---------------------------------------------------------------------------------------------------------|----------|
-|  1.| Enter the radius, then compute area and round to two decimal places.                                    |   ✅      |
-|  2.| Computes the shortest distance between two points on a sphere using latitude and longitude.             |   ✅       |
-|  3.| Computes the area enclosed by four cities using the Great Circle formula and Heron’s formula.           |    ✅      |
-|  4.| Calculates the area of a regular hexagon based on the user-provided side length.                        |   ✅       |
-|  5.| Calculates the area of a regular polygon using number of sides and side length.                         |   ✅       |
-|  6.| Generates three random points on a circle and computes triangle angles.                                 |   ✅       |
-|  7.| Displays coordinates of a pentagon’s vertices given the bounding circle radius.                         |   ✅       |
-|  8.| Converts an ASCII code (0–127) to its corresponding character.                                          |    ✅      |
-|  9.| Displays the Unicode value of a given character.                                                        |    ✅      |
-| 10.| Modifies GuessBirthday to use Y/N input instead of 1/0.                                                 |    ✅      |
-| 11.| Converts an integer (0–15) to its hexadecimal value.                                                    |   ✅       |
-| 12.| Converts a hexadecimal digit to its binary representation.                                              |   ✅       |
-| 13.| Checks whether an entered letter is a vowel or a consonant.                                             |    ✅      |
-| 14.| Converts a letter grade to its numeric value.                                                           |   ✅       |
-| 15.| Maps a letter to its corresponding telephone keypad number.                                             |  ✅        |
-| 16.| Displays a random uppercase letter.                                                                     |  ✅        |
-| 17.| Displays the number of days in a given month and year (leap year aware).                                |  ✅        |
-| 18.| Displays student major and academic status based on two input characters.                               | ✅         |
-| 19.| Computes the ISBN-10 check digit using string input.                                                    |  ✅        |
-| 20.| Displays the length of a string and its first character.                                                |   ✅       |
-| 21.| Validates a Social Security number in DDD-DD-DDDD format.                                               |   ✅       |
-| 22.| Checks whether one string is a substring of another.                                                    |    ✅      |
-| 23.| Generates a formatted payroll statement from employee input data.                                       |  ✅        |
-| 24.| Displays three city names in ascending alphabetical order.                                              |   ✅       |
-| 25.| Generates a random vehicle plate number (AAA-1234 format).                                              |    ✅      |
-| 26.| Rewrites ComputeChange to use string processing for accurate currency handling.                         |    ✅      |
+| #  | Exercise Description | Source Code | Status |
+|----|----------------------|-------------|--------|
+| 01 | Program that reads the radius of a circle, computes its area, and displays the result rounded to two decimal places. | `Question1.java` | ✅ Done |
+| 02 | Program that computes the shortest distance between two points on the Earth using latitude and longitude coordinates and the Great Circle formula. | `Question2.java` | ✅ Done |
+| 03 | Program that computes the area enclosed by four cities using the Great Circle formula and Heron’s formula. | `Question3.java` | ✅ Done |
+| 04 | Program that reads the side length of a regular hexagon and calculates its area. | `Question4.java` | ✅ Done |
+| 05 | Program that reads the number of sides and side length of a regular polygon, then computes its area. | `Question5.java` | ✅ Done |
+| 06 | Program that generates three random points on a circle and computes the angles of the triangle formed by those points. | `Question6.java` | ✅ Done |
+| 07 | Program that displays the coordinates of a pentagon’s vertices given the radius of its bounding circle. | `Question7.java` | ✅ Done |
+| 08 | Program that reads an ASCII code (0–127) and displays its corresponding character. | `Question8.java` | ✅ Done |
+| 09 | Program that reads a character and displays its Unicode value. | `Question9.java` | ✅ Done |
+| 10 | Modify the GuessBirthday program to use `Y/N` input instead of `1/0` for user responses. | `Question10.java` | ✅ Done |
+| 11 | Program that converts an integer value (0–15) to its hexadecimal representation. | `Question11.java` | ✅ Done |
+| 12 | Program that converts a hexadecimal digit into its corresponding binary representation. | `Question12.java` | ✅ Done |
+| 13 | Program that reads a letter and determines whether it is a vowel or a consonant. | `Question13.java` | ✅ Done |
+| 14 | Program that converts a letter grade into its corresponding numeric value. | `Question14.java` | ✅ Done |
+| 15 | Program that maps a letter to its corresponding telephone keypad number. | `Question15.java` | ✅ Done |
+| 16 | Program that displays a randomly generated uppercase letter. | `Question16.java` | ✅ Done |
+| 17 | Program that reads a month and year, then displays the number of days in that month, accounting for leap years. | `Question17.java` | ✅ Done |
+| 18 | Program that reads two characters representing a student’s major and academic status, then displays the corresponding information. | `Question18.java` | ✅ Done |
+| 19 | Program that computes the ISBN-10 check digit from a 9-digit string input and displays the complete ISBN. | `Question19.java` | ✅ Done |
+| 20 | Program that reads a string and displays its length and first character. | `Question20.java` | ✅ Done |
+| 21 | Program that validates a Social Security number entered in `DDD-DD-DDDD` format. | `Question21.java` | ✅ Done |
+| 22 | Program that checks whether one string is a substring of another string. | `Question22.java` | ✅ Done |
+| 23 | Program that generates a formatted payroll statement based on employee information and pay details. | `Question23.java` | ✅ Done |
+| 24 | Program that reads three city names and displays them in ascending alphabetical order. | `Question24.java` | ✅ Done |
+| 25 | Program that generates a random vehicle plate number in `AAA-1234` format. | `Question25.java` | ✅ Done |
+| 26 | Modify the ComputeChange program to use string processing for accurate currency handling and change calculation. | `Question26.java` | ✅ Done |
 
 
 ---
 
-## 🔗 Useful Resources
+# 📚 Recommended Resources for the Methods Chapter
 
-- [Java Official Documentation](https://docs.oracle.com/javase/tutorial/)
-- [Download Java JDK](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
-- [Common Java Errors for Beginners](https://www.geeksforgeeks.org/common-java-errors-for-beginners/)
-- [Java Programming Video Tutorials](https://www.youtube.com/results?search_query=java+programming+basics)
+## 📖 Primary Reading
+**Chapter 6 of _Introduction to Java Programming_ by Y. Daniel Liang**
+
+This chapter introduces Java methods, including:
+
+- Defining and calling methods
+- Passing arguments to methods
+- Returning values from methods
+- Method overloading
+- Scope of variables
+- Writing reusable and modular code
+
+A solid understanding of methods is essential before moving on to object-oriented programming.
+
+---
+
+## 🌐 Official Documentation
+**Oracle Java Documentation – Methods**
+
+Learn about:
+
+- Method declarations
+- Parameters and arguments
+- Return types
+- Access modifiers
+- Static methods
+
+Use the official documentation whenever you need clarification on Java syntax or best practices.
+
+---
+
+## ⚠️ Debugging Help
+**GeeksforGeeks: Common Java Method Errors**
+
+Helpful for fixing beginner mistakes such as:
+
+- Missing return statements
+- Incorrect method signatures
+- Parameter mismatch errors
+- Calling non-static methods from static contexts
+- Infinite recursion issues
+
+---
+
+# 💡 Pro-Tip for Beginners
+
+Methods help you **avoid repeating code** and make programs easier to maintain.
+
+Always double-check:
+
+- Method name spelling
+- Number and type of parameters
+- Return type (`void`, `int`, `double`, etc.)
+- Matching opening and closing braces `{ }`
+- Proper method calls
 
 ---
 
