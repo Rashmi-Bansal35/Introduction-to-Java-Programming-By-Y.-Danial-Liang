@@ -25,13 +25,13 @@ This chapter is your launchpad into the world of Java—one of the most popular 
 ## 🗂️ Directory Overview
 
 ```text
-Chapter3/
-├── Question1.java                # Celsius to Fahrenheit converter
-├── Question2.java                # Cylinder area and volume calculator
+Chapter4/
+├── Question1.java                # Area of circle
+├── Question2.java                # Shortest distance between 2 points
 ├── ...
 ├── ...
 ├── ...
-├── Question26.java               # Driving cost estimator
+├── Question26.java               # Currency Handler
 ├── GuessBirthday.java
 └── Readme.md                     # This documentation file
 ```
@@ -43,7 +43,7 @@ If you are using a terminal or command prompt, follow these simple steps to comp
 
 ## 1️⃣ Navigate to the Chapter Folder
 ```bash
-cd chapter2
+cd chapter4
 ```
 
 ## 2️⃣ Compile the Java File
