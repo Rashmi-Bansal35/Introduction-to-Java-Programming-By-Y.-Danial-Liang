@@ -41,7 +41,7 @@ This project is designed for:
 Got an alternative solution? Found a mistake? Or simply want to share suggestions?
 
 👉 **Join the Discussions Section:**  
-<a href="https://github.com/Rashmi-Bansal35/Introduction-to-Java-Programming-By-Y.-Danial-Liang/discussions">
+<a href="https://github.com/RashmiBansal-30/Introduction-to-Java-Programming-By-Y.-Danial-Liang/discussions">
 Click Here to Leave Feedback or Ask Questions in the Discussion Thread!
 </a>
 
@@ -194,9 +194,9 @@ Your support motivates continuous learning and development.
 
 ## Rashmi Bansal
 
-🌐 GitHub Profile: <a href="https://github.com/Rashmi-Bansal35">Rashmi-Bansal35</a>
+🌐 GitHub Profile: <a href="https://github.com/RashmiBansal-30">RashmiBansal-30</a>
 
-📦 Repository Link: <a href="https://github.com/Rashmi-Bansal35/Introduction-to-Java-Programming-By-Y.-Danial-Liang"> Introduction-to-Java-Programming-By-Y.-Danial-Liang </a>
+📦 Repository Link: <a href="https://github.com/RashmiBansal-30/Introduction-to-Java-Programming-By-Y.-Danial-Liang"> Introduction-to-Java-Programming-By-Y.-Danial-Liang </a>
 
 ---
 
